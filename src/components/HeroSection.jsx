@@ -20,12 +20,16 @@ export const HeroSection = () => {
                     </p>
 
                     <div className="flex flex-row gap-4 opacity-0 animate-fade-in-delay-4">
-                        <button className="bg-primary text-background font-medium text-md px-4 py-2 rounded-2xl hover:bg-primary/10 hover:text-primary border-primary border-2">
-                            View My Work
-                        </button>
-                        <button className="bg-background text-foreground font-medium text-md px-4 py-2 rounded-2xl hover:bg-primary/90 hover:text-background border-primary border-2">
-                            Contact Me
-                        </button>
+                        <a href="#projects">
+                            <button className="bg-primary text-background font-medium text-md px-4 py-2 rounded-2xl hover:bg-primary/10 hover:text-primary border-primary border-2">
+                                View My Work
+                            </button>
+                        </a>
+                        <a href="#contact">
+                            <button className="bg-background text-foreground font-medium text-md px-4 py-2 rounded-2xl hover:bg-primary/90 hover:text-background border-primary border-2">
+                                Contact Me
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>

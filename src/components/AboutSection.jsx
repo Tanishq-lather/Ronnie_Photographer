@@ -2,7 +2,7 @@ import { Briefcase, Film, User } from "lucide-react"
 
 export const AboutSection = () => {
     return (
-        <section className="relative min-h-screen flex flex-col items-center justify-center px-8 py-12 mb-12">
+        <section id="about" className="relative min-h-screen flex flex-col items-center justify-center px-8 py-12 mb-12">
             <div className="container max-w-6xl mx-auto text-center z-10 ">
 
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-12">
@@ -17,9 +17,11 @@ export const AboutSection = () => {
                         <p className="text-md md:text-lg font-medium text-foreground">
                             With over a decade of experience, I specialize in portrait, landscape, and event photography. My work has been featured in various publications and exhibitions, and I am dedicated to capturing the beauty and emotion in every moment.
                         </p>
-                        <button href="#contact" className="cosmic-button">
-                            Contact Me
-                        </button>
+                        <a href="#contact">
+                            <button className="cosmic-button">
+                                Contact Me
+                            </button>
+                        </a>
                     </div>
 
                     <div className="grid grid-cols-1 gap-6"> 
